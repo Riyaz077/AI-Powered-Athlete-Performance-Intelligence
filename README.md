@@ -1,4 +1,6 @@
-# Real-Time Athlete Performance Analytics and Anomaly Detection
+# Real-Time-Sports-Analytics
+
+## Real-Time Athlete Performance Analytics and Anomaly Detection
 
 An end-to-end athlete sensor analytics project demonstrating data preprocessing, feature engineering, performance-score estimation, anomaly detection, rule-based alerts, and an interactive Streamlit dashboard.
 
