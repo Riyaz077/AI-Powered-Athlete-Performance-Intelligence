@@ -71,18 +71,15 @@ Streamlit analytics dashboard
 └── tests/test_pipeline.py
 ```
 
-## Quick start
+## **Quick Start**
 
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
-pip install -r requirements.txt
-python -m src.pipeline --generate-demo
-streamlit run app.py
-```
-
-The demo command generates synthetic data under `data/generated/` and pipeline outputs under `results/`. Run it before opening the dashboard.
+- Create and activate a Python virtual environment.
+- Install the required dependencies using `requirements.txt`.
+- Execute the demo pipeline to generate synthetic datasets.
+- Store generated datasets in `data/generated/`.
+- Generate analytical outputs and model results in the `results/` directory.
+- Launch the interactive Streamlit dashboard.
+- Explore the dashboard after successfully completing the demo pipeline.
 
 ## Input schema
 
@@ -113,6 +110,8 @@ This is an educational analytics prototype, not a clinical or athlete-safety sys
 
 ## Author
 
-Mohamed Riyaz S. | VIT Chennai
+**Mohamed Riyaz S.**  
+Integrated M.Tech, Computer Science and Engineering (Business Analytics)  
+VIT Chennai
 
 
