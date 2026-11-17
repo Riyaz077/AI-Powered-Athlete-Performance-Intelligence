@@ -166,33 +166,7 @@ Raw sensor values are transformed into features that represent athlete movement 
 | Exertion Index | Combines selected sensor features into a constructed exertion indicator. |
 | Performance Score | Defined target used for supervised performance-score estimation. |
 
-Acceleration magnitude:
 
-\[
-a_{mag}=\sqrt{a_x^2+a_y^2+a_z^2}
-\]
-
-Speed change:
-
-\[
-\Delta v_t=v_t-v_{t-1}
-\]
-
-Acceleration change:
-
-\[
-\Delta a_t=a_{mag,t}-a_{mag,t-1}
-\]
-
-Rolling heart-rate mean:
-
-\[
-HR_{mean,t}=\frac{1}{w}\sum_{i=0}^{w-1}HR_{t-i}
-\]
-
-Where \(w\) represents the selected rolling window size.
-
-Feature calculations must respect chronological order. Rolling windows and lag features should not use future observations.
 
 **Stage 5 — Predictive Performance Analytics**
 
